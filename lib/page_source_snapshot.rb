@@ -5,9 +5,9 @@ require 'page_source_snapshot/elements'
 class PageSourceSnapshot
   attr_reader :expect, :actual, :error_message
 
-  def initialize(expect_xml, actual_xml, filter_attributes = [])
-    @expect = get_elements expect_xml, filter_attributes
-    @actual = get_elements actual_xml, filter_attributes
+  def initialize(expect_xml, actual_xml, ignore_attributes = [])
+    @expect = get_elements expect_xml, ignore_attributes
+    @actual = get_elements actual_xml, ignore_attributes
     @error_message = ""
   end
 
