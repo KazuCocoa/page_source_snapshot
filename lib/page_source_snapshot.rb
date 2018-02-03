@@ -5,16 +5,10 @@ require 'page_source_snapshot/elements'
 class PageSourceSnapshot
   attr_reader :expect, :actual, :error_message
 
-  def initialize(expect_xml, actual_xml)
-    @expect = get_elements expect_xml
-    @actual = get_elements actual_xml
-    @error_message = nil
-  end
-
-  def get_elements(xml)
-    handler = Elements.new
-    Oga.sax_parse_xml(handler, xml)
-    handler.elements
+  def initialize(expect_xml, actual_xml, filter_attributes = [])
+    @expect = get_elements expect_xml, filter_attributes
+    @actual = get_elements actual_xml, filter_attributes
+    @error_message = ""
   end
 
   def compare
@@ -23,12 +17,11 @@ class PageSourceSnapshot
     @expect.zip(@actual).each do |e, a|
       if (e - a) != []
         message << error(e[1], a[1])
-        result = false
       end
     end
 
     @error_message = message
-    result
+    @error_message.empty? ? true : false
   end
 
   def error(expect, actual)
@@ -45,6 +38,14 @@ class PageSourceSnapshot
       end
     end
 
-    "#{diff}"
+    diff == {} ? "" : "#{diff}"
+  end
+
+  private
+
+  def get_elements(xml, filter_attributes)
+    handler = Elements.new(filter_attributes)
+    Oga.sax_parse_xml(handler, xml)
+    handler.elements
   end
 end

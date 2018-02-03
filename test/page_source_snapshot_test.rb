@@ -14,6 +14,13 @@ class PageSourceSnapshotTest < Minitest::Test
   def test_false_case
     result = PageSourceSnapshot.new(File.read('./test/data/test_hidekeyboard-failed.xml'), File.read('./test/data/test_push_file-failed.xml'))
     assert !result.compare
+    assert result.error_message != ""
+  end
+
+  def test_false_case
+    result = PageSourceSnapshot.new(File.read('./test/data/test_hidekeyboard-failed.xml'), File.read('./test/data/test_push_file-failed.xml'),
+      ["visible", "width", "height", "x", "y", "name", "label", "type", "value"])
+    assert result.compare
     assert_equal result.error_message, ""
   end
 end
