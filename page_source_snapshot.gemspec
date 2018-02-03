@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kazuaki MATSUO"]
   spec.email         = ["fly.49.89.over@gmail.com"]
 
-  spec.summary       = %q{get diff}
-  spec.description   = %q{get diff}
-  spec.homepage      = "https://example.com"
+  spec.summary       = %q{Get diff for two xml sources}
+  spec.description   = %q{Get diff for two xml sources}
+  spec.homepage      = "https://github.com/KazuCocoa/page_source_snapshot"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

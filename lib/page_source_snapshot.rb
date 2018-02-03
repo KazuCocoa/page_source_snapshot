@@ -33,11 +33,11 @@ class PageSourceSnapshot
 
     e_keys.each do |key|
       if expect[key] != actual[key]
-        diff[key] = "expect: #{expect[key]}, actual: #{actual[key]}\n"
+        diff[key] = "expect: #{expect[key]}, actual: #{actual[key]}"
       end
     end
 
-    diff.empty? ? "" : "#{diff}"
+    diff.empty? ? "" : "#{diff}\n"
   end
 
   private

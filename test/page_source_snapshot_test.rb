@@ -27,4 +27,12 @@ class PageSourceSnapshotTest < Minitest::Test
     assert result.compare
     assert_equal result.error_message, ""
   end
+
+  def test_false_error_message
+    e = "<a enabled=\"true\" visible=\"true\" x=\"20\">"
+    a = "<a enabled=\"true\" visible=\"false\" x=\"0\">"
+    result = PageSourceSnapshot.new(e, a)
+    assert !result.compare
+    assert_equal "{\"visible\"=>\"expect: true, actual: false\", \"x\"=>\"expect: 20, actual: 0\"}\n", result.error_message
+  end
 end
