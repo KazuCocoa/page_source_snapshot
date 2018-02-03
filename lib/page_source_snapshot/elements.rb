@@ -3,6 +3,8 @@ class PageSourceSnapshot
     attr_reader :elements
 
     def initialize(ignore_attributes = [])
+      raise "ignore_attributes should be Array. Not #{ignore_attributes.class}" unless ignore_attributes.is_a? Array
+
       @ignore_attributes = ignore_attributes
       @elements = []
     end
@@ -13,4 +15,3 @@ class PageSourceSnapshot
     end
   end
 end
-

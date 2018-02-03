@@ -12,7 +12,6 @@ class PageSourceSnapshot
   end
 
   def compare
-    result = true
     message = ""
     @expect.zip(@actual).each do |e, a|
       if (e - a) != []
@@ -38,7 +37,7 @@ class PageSourceSnapshot
       end
     end
 
-    diff == {} ? "" : "#{diff}"
+    diff.empty? ? "" : "#{diff}"
   end
 
   private
