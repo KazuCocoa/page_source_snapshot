@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" enabled="true" visible="true" x="0" y="0" width="375" height="667" name="UICatalog" label="UICatalog">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+        <XCUIElementTypeNavigationBar type="XCUIElementTypeNavigationBar" enabled="true" visible="true" x="0" y="24" width="375" height="52" name="UICatalog">
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="141" y="33" width="93" height="33" name="UICatalog" label="UICatalog" value="UICatalog">
+          </XCUIElementTypeStaticText>
+        </XCUIElementTypeNavigationBar>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+            <XCUIElementTypeTable type="XCUIElementTypeTable" enabled="true" visible="true" x="0" y="75" width="375" height="592">
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="75" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="80" width="75" height="27" name="Buttons" label="Buttons" value="Buttons">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="106" width="165" height="18" name="Various uses of UIButton" label="Various uses of UIButton" value="Various uses of UIButton">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="127" width="375" height="52">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="131" width="82" height="27" name="Controls" label="Controls" value="Controls">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="157" width="170" height="19" name="Various uses of UIControl" label="Various uses of UIControl" value="Various uses of UIControl">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="178" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="183" width="97" height="27" name="TextFields" label="TextFields" value="TextFields">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="209" width="130" height="18" name="Uses of UITextField" label="Uses of UITextField" value="Uses of UITextField">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="230" width="375" height="52">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="235" width="100" height="26" name="SearchBar" label="SearchBar" value="SearchBar">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="260" width="131" height="19" name="Use of UISearchBar" label="Use of UISearchBar" value="Use of UISearchBar">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="281" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="286" width="88" height="27" name="TextView" label="TextView" value="TextView">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="312" width="123" height="18" name="Use of UITextField" label="Use of UITextField" value="Use of UITextField">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="333" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="338" width="70" height="26" name="Pickers" label="Pickers" value="Pickers">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="363" width="237" height="19" name="Uses of UIDatePicker, UIPickerView" label="Uses of UIDatePicker, UIPickerView" value="Uses of UIDatePicker, UIPickerView">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="385" width="375" height="52">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="389" width="70" height="27" name="Images" label="Images" value="Images">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="415" width="135" height="19" name="Use of UIImageView" label="Use of UIImageView" value="Use of UIImageView">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="436" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="441" width="44" height="27" name="Web" label="Web" value="Web">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="467" width="124" height="18" name="Use of UIWebView" label="Use of UIWebView" value="Use of UIWebView">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="488" width="375" height="52">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="492" width="97" height="27" name="Segments" label="Segments" value="Segments">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="518" width="246" height="19" name="Various uses of UISegmentedControl" label="Various uses of UISegmentedControl" value="Various uses of UISegmentedControl">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="539" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="544" width="73" height="27" name="Toolbar" label="Toolbar" value="Toolbar">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="570" width="121" height="18" name="Uses of UIToolbar" label="Uses of UIToolbar" value="Uses of UIToolbar">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="591" width="375" height="52">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="596" width="57" height="26" name="Alerts" label="Alerts" value="Alerts">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="621" width="287" height="19" name="Various uses of UIAlertView, UIActionSheet" label="Various uses of UIAlertView, UIActionSheet" value="Various uses of UIAlertView, UIActionSheet">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="642" width="375" height="53">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="647" width="105" height="27" name="Transitions" label="Transitions" value="Transitions">
+                </XCUIElementTypeStaticText>
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" x="17" y="673" width="232" height="18" name="Shows UIViewAnimationTransitions" label="Shows UIViewAnimationTransitions" value="Shows UIViewAnimationTransitions">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+            </XCUIElementTypeTable>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeStatusBar type="XCUIElementTypeStatusBar" enabled="true" visible="true" x="0" y="0" width="375" height="25">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="25">
+        </XCUIElementTypeOther>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="25">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="7" y="0" width="46" height="25">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="58" y="0" width="16" height="25" name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="SSID">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="158" y="0" width="64" height="25" name="12:10 PM" label="12:10 PM">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="339" y="0" width="31" height="25" name="-100% battery power" label="-100% battery power">
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeStatusBar>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>

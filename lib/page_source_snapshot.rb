@@ -1,19 +1,8 @@
-require "page_source_snapshot/version"
 require 'oga'
+require 'page_source_snapshot/version'
+require 'page_source_snapshot/elements'
 
 class PageSourceSnapshot
-  class Elements
-    attr_reader :elements
-
-    def initialize
-      @elements = []
-    end
-
-    def on_element(namespace, name, attrs = {})
-      @elements << [name, attrs]
-    end
-  end
-
   attr_reader :expect, :actual, :error_message
 
   def initialize(expect_xml, actual_xml)
@@ -22,7 +11,6 @@ class PageSourceSnapshot
     @error_message = nil
   end
 
-  # @return [Array]
   def get_elements(xml)
     handler = Elements.new
     Oga.sax_parse_xml(handler, xml)
@@ -48,13 +36,12 @@ class PageSourceSnapshot
     return "expect: #{expect}, actual: #{actual}" unless expect.is_a?(Hash) && actual.is_a?(Hash)
 
     e_keys = expect.keys
-    # a_keys = actual.keys
 
     diff = {}
 
     e_keys.each do |key|
       if expect[key] != actual[key]
-        diff[key] = "expect: #{expect[key]}, actual: #{actual[key]}"
+        diff[key] = "expect: #{expect[key]}, actual: #{actual[key]}\n"
       end
     end
 

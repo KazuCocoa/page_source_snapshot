@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppiumAUT>
+  <XCUIElementTypeApplication type="XCUIElementTypeApplication" enabled="true" visible="true" x="0" y="0" width="375" height="667" name="UICatalog" label="UICatalog">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+        <XCUIElementTypeNavigationBar type="XCUIElementTypeNavigationBar" enabled="true" visible="true" x="0" y="24" width="375" height="52" name="TextFields">
+          <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="true" x="9" y="31" width="68" height="36" name="Back" label="Back">
+          </XCUIElementTypeButton>
+          <XCUIElementTypeButton type="XCUIElementTypeButton" enabled="true" visible="true" x="9" y="37" width="25" height="26" name="Back" label="Back">
+          </XCUIElementTypeButton>
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="140" y="33" width="96" height="33" name="TextFields" label="TextFields" value="TextFields">
+          </XCUIElementTypeStaticText>
+        </XCUIElementTypeNavigationBar>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+            <XCUIElementTypeTable type="XCUIElementTypeTable" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="75" width="375" height="66">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="0" y="75" width="375" height="66" name="UITextField" label="UITextField" value="UITextField">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="140" width="375" height="59">
+                <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="149" width="329" height="36" name="Normal" label="Normal" value="&lt;enter text&gt;">
+                  <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="149" width="329" height="36" name="Normal" label="Normal" value="&lt;enter text&gt;">
+                  </XCUIElementTypeTextField>
+                </XCUIElementTypeTextField>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="198" width="375" height="27">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="198" width="341" height="26" name="TextFieldController.m: textFieldNormal" label="TextFieldController.m: textFieldNormal" value="TextFieldController.m: textFieldNormal">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="256" width="375" height="45">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="0" y="256" width="375" height="45" name="UITextField Rounded" label="UITextField Rounded" value="UITextField Rounded">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="300" width="375" height="59">
+                <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="309" width="329" height="36" name="Rounded" label="Rounded" value="&lt;enter text&gt;">
+                  <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="309" width="329" height="36" name="Rounded" label="Rounded" value="&lt;enter text&gt;">
+                  </XCUIElementTypeTextField>
+                </XCUIElementTypeTextField>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="358" width="375" height="27">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="358" width="341" height="26" name="TextFieldController.m: textFieldRounded" label="TextFieldController.m: textFieldRounded" value="TextFieldController.m: textFieldRounded">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="416" width="375" height="45">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="0" y="416" width="375" height="45" name="UITextField Secure" label="UITextField Secure" value="UITextField Secure">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="460" width="375" height="59">
+                <XCUIElementTypeSecureTextField type="XCUIElementTypeSecureTextField" enabled="true" visible="true" x="23" y="469" width="329" height="36" name="Secure" label="Secure" value="&lt;enter password&gt;">
+                  <XCUIElementTypeSecureTextField type="XCUIElementTypeSecureTextField" enabled="true" visible="true" x="23" y="469" width="329" height="36" name="Secure" label="Secure" value="&lt;enter password&gt;">
+                  </XCUIElementTypeSecureTextField>
+                </XCUIElementTypeSecureTextField>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="518" width="375" height="27">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="17" y="518" width="341" height="26" name="TextFieldController.m: textFieldSecure" label="TextFieldController.m: textFieldSecure" value="TextFieldController.m: textFieldSecure">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="576" width="375" height="45">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="true" x="0" y="576" width="375" height="45" name="UITextField (with LeftView)" label="UITextField (with LeftView)" value="UITextField (with LeftView)">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeOther>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="true" x="0" y="620" width="375" height="59">
+                <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="629" width="329" height="36" name="Check" label="Check" value="&lt;enter text&gt;">
+                  <XCUIElementTypeTextField type="XCUIElementTypeTextField" enabled="true" visible="true" x="23" y="629" width="329" height="36" name="Check" label="Check" value="&lt;enter text&gt;">
+                  </XCUIElementTypeTextField>
+                </XCUIElementTypeTextField>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeCell type="XCUIElementTypeCell" enabled="true" visible="false" x="0" y="678" width="375" height="27">
+                <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" enabled="true" visible="false" x="0" y="0" width="340" height="26" name="TextFieldController.m: textFieldLeftView" label="TextFieldController.m: textFieldLeftView" value="TextFieldController.m: textFieldLeftView">
+                </XCUIElementTypeStaticText>
+              </XCUIElementTypeCell>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="75" width="375" height="66" name="UITEXTFIELD" label="UITEXTFIELD">
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="256" width="375" height="45" name="UITEXTFIELD ROUNDED" label="UITEXTFIELD ROUNDED">
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="416" width="375" height="45" name="UITEXTFIELD SECURE" label="UITEXTFIELD SECURE">
+              </XCUIElementTypeOther>
+              <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="576" width="375" height="45" name="UITEXTFIELD (WITH LEFTVIEW)" label="UITEXTFIELD (WITH LEFTVIEW)">
+              </XCUIElementTypeOther>
+            </XCUIElementTypeTable>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="667">
+      </XCUIElementTypeOther>
+    </XCUIElementTypeWindow>
+    <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" x="0" y="0" width="375" height="667">
+      <XCUIElementTypeStatusBar type="XCUIElementTypeStatusBar" enabled="true" visible="true" x="0" y="0" width="375" height="25">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" x="0" y="0" width="375" height="25">
+        </XCUIElementTypeOther>
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="0" y="0" width="375" height="25">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="7" y="0" width="46" height="25">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="58" y="0" width="16" height="25" name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="SSID">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="157" y="0" width="66" height="25" name="12:09 PM" label="12:09 PM">
+          </XCUIElementTypeOther>
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" x="339" y="0" width="31" height="25" name="-100% battery power" label="-100% battery power">
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+      </XCUIElementTypeStatusBar>
+    </XCUIElementTypeWindow>
+  </XCUIElementTypeApplication>
+</AppiumAUT>
