@@ -1,3 +1,3 @@
-module PageSourceSnapshot
+class PageSourceSnapshot
   VERSION = "0.1.0"
 end
